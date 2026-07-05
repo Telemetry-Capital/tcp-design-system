@@ -9,7 +9,7 @@ Add a **tag-pinned** git dependency (never `#main`):
 ```jsonc
 // package.json
 "dependencies": {
-  "@tcp/design-system": "github:adelmanmax7-design/tcp-design-system#v0.1.0"
+  "@tcp/design-system": "github:Telemetry-Capital/tcp-design-system#v0.1.0"
 }
 ```
 
