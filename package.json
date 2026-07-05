@@ -1,0 +1,22 @@
+{
+  "name": "@tcp/design-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared design system (tokens, theme, components) for TCP Command Center apps.",
+  "exports": {
+    ".": "./src/index.js",
+    "./tokens": "./src/tokens.js",
+    "./theme": "./src/theme.js",
+    "./fonts": "./src/fonts.js",
+    "./typography": "./src/typography.js",
+    "./primitives": "./src/styles/primitives.js",
+    "./clean": "./src/components/clean/index.js",
+    "./arcade": "./src/components/arcade/index.js"
+  },
+  "files": ["src"],
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
